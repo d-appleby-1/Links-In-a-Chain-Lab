@@ -1,3 +1,4 @@
+#pragma once
 #include <string>
 
 class Link {
@@ -12,4 +13,4 @@ class Link {
     std::string get_material() {
       return this->material;
     }
-}
+};
